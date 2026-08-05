@@ -1,3 +1,5 @@
+> **[English version](README_EN.md)**
+
 <!--
   BANNER: сгенерировать изображение 1280x320, темный градиент #0f172a → #1e293b,
   текст "ANDREW SHEFF" белым Inter Bold, подтекст "Full-Stack Developer | Python + React + AI"
@@ -8,13 +10,11 @@
 
 <div align="center">
 
-# Andrew Sheff
+# Андрей Шевцов
 
-**Full-Stack Developer — Python + React + AI**
+**Full-Stack разработчик — Python + React + AI**
 
-I build production-ready business platforms that companies actually use.
-
-**Full-stack разработчик. Создаю бизнес-платформы, которые реально работают.**
+Создаю production-ready бизнес-платформы, которые реально работают.
 
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -22,13 +22,13 @@ I build production-ready business platforms that companies actually use.
 [![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://docker.com)
 
-**5 commercial platforms** · **53,000+ lines of code** · **192 API endpoints** · **180+ tests**
+**5 коммерческих платформ** · **53 000+ строк кода** · **192 API-эндпоинта** · **180+ тестов**
 
 </div>
 
 ---
 
-### Products
+### Проекты
 
 <table>
 <tr>
@@ -38,7 +38,7 @@ I build production-ready business platforms that companies actually use.
 
 Telegram-бот платформа для бизнеса: онлайн-запись, AI-чат, переключение на оператора, рассылки, CRM с аналитикой.
 
-`16,800+ LOC` · `55 endpoints` · `48 tests`
+`16 800+ строк` · `55 эндпоинтов` · `48 тестов`
 
 FastAPI · React · aiogram 3 · PostgreSQL · Redis
 
@@ -49,7 +49,7 @@ FastAPI · React · aiogram 3 · PostgreSQL · Redis
 
 Легковесная CRM: клиенты, канбан-доска сделок (drag & drop), воронка продаж, AI-ассистент, Excel-экспорт. Без ежемесячных платежей.
 
-`10,000+ LOC` · `47 endpoints` · `9 моделей`
+`10 000+ строк` · `47 эндпоинтов` · `9 моделей`
 
 FastAPI · React · @dnd-kit · PostgreSQL · Redis
 
@@ -62,7 +62,7 @@ FastAPI · React · @dnd-kit · PostgreSQL · Redis
 
 SaaS для мониторинга сайтов: расписание, CSS/XPath-селекторы, обнаружение изменений, AI-саммари, Telegram-алерты.
 
-`10,400+ LOC` · `31 endpoints` · `48+ tests`
+`10 400+ строк` · `31 эндпоинт` · `48+ тестов`
 
 FastAPI · React · BeautifulSoup · APScheduler
 
@@ -71,9 +71,9 @@ FastAPI · React · BeautifulSoup · APScheduler
 
 #### [AI Support Agent](https://github.com/AndrewSheff/ai-support-agent)
 
-Корпоративный AI-ассистент: RAG-пайплайн, семантический поиск по документам, ответы с ссылками на источники.
+Корпоративный AI-ассистент: RAG-пайплайн, семантический поиск по документам, ответы со ссылками на источники.
 
-`9,500+ LOC` · `22 endpoints` · `42 tests`
+`9 500+ строк` · `22 эндпоинта` · `42 теста`
 
 FastAPI · React · OpenAI · pgvector
 
@@ -87,7 +87,7 @@ FastAPI · React · OpenAI · pgvector
 
 Анализ документов: загрузка PDF/DOCX/XLSX, семантический поиск (pgvector), Q&A с цитатами, AI-аналитика.
 
-`6,200+ LOC` · `37 endpoints` · `7 моделей` · `pgvector HNSW`
+`6 200+ строк` · `37 эндпоинтов` · `7 моделей` · `pgvector HNSW`
 
 FastAPI · React · OpenAI embeddings · PostgreSQL
 
@@ -95,33 +95,31 @@ FastAPI · React · OpenAI embeddings · PostgreSQL
 
 ---
 
-### Every Project Includes
+### В каждом проекте
 
 | | | | |
 |:---:|:---:|:---:|:---:|
-| **Docker Compose** | **CI/CD** | **Tests** | **Swagger Docs** |
-| One-command deploy | GitHub Actions | Pytest (async) | Full API reference |
-| **Auth & RBAC** | **Migrations** | **Structured Logging** | **MIT License** |
-| JWT + bcrypt | Alembic | structlog (JSON) | Free for commercial use |
+| **Docker Compose** | **CI/CD** | **Тесты** | **Swagger** |
+| Запуск одной командой | GitHub Actions | Pytest (async) | Полная документация API |
+| **Авторизация** | **Миграции** | **Логирование** | **MIT лицензия** |
+| JWT + bcrypt | Alembic | structlog (JSON) | Бесплатно для коммерции |
 
 ---
 
-### Stack
+### Стек
 
-| Backend | Frontend | AI & Search | Infrastructure |
-|:--------|:---------|:------------|:---------------|
+| Бэкенд | Фронтенд | AI и поиск | Инфраструктура |
+|:-------|:---------|:-----------|:---------------|
 | Python 3.13 | React 19 | OpenAI GPT-4 | Docker Compose |
 | FastAPI 0.115 | TypeScript 5+ | Anthropic Claude | GitHub Actions CI/CD |
 | SQLAlchemy 2.0 | Vite 6 | pgvector + HNSW | Nginx reverse proxy |
-| PostgreSQL 16 | TailwindCSS v4 | RAG pipelines | Multi-stage builds |
+| PostgreSQL 16 | TailwindCSS v4 | RAG-пайплайны | Multi-stage builds |
 | Redis 7 | shadcn/ui | Embeddings (1536d) | structlog (JSON) |
 | Alembic | React Query | tiktoken | Pytest (async) |
 
 ---
 
-### Work With Me / Сотрудничество
-
-Open for freelance projects and contract work. I deliver working products — backend, frontend, AI, deployment, tests, and documentation.
+### Сотрудничество
 
 Открыт для фриланса и контрактной работы. Делаю готовые продукты под ключ — бэкенд, фронтенд, AI, деплой, тесты, документация.
 
