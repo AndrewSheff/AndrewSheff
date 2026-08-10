@@ -11,23 +11,92 @@
 
 # Andrew Sheff
 
-**Full-Stack Developer — Python + React + AI**
+**Full-Stack Developer — Java + Python + AI**
 
 I build production-ready business platforms that companies actually use.
 
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://docker.com)
 
-**5 commercial platforms** · **53,000+ lines of code** · **192 API endpoints** · **180+ tests**
+**10 commercial platforms** · **76,000+ lines of code** · **329 API endpoints** · **285+ tests**
 
 </div>
 
 ---
 
-### Products
+### Java — Enterprise Backend
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [OrderHub](https://github.com/AndrewSheff/orderhub)
+
+Microservice OMS for e-commerce: CQRS, Event Sourcing (no Axon), multi-warehouse logic, cursor-based pagination.
+
+`4,900 LOC` · `31 endpoints` · `25 tests`
+
+Spring Boot 3 · Kafka · PostgreSQL · Spring Modulith
+
+</td>
+<td width="50%" valign="top">
+
+#### [FinFlow](https://github.com/AndrewSheff/finflow)
+
+Payment processing: payment state machine, double-entry bookkeeping, anti-fraud engine, Outbox + Kafka.
+
+`4,800 LOC` · `24 endpoints` · `22 tests`
+
+Spring Boot 3 · Spring Statemachine · Kafka · Quartz
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [GateKeeper](https://github.com/AndrewSheff/gatekeeper)
+
+API Gateway + OAuth2 server: authentication, API keys, rate limiting, dynamic routing, traffic analytics.
+
+`5,500 LOC` · `33 endpoints` · `39 tests`
+
+Spring Boot 3 · Spring Security · Redis · Caffeine
+
+</td>
+<td width="50%" valign="top">
+
+#### [DocVault](https://github.com/AndrewSheff/docvault)
+
+Document management: approval workflows, versioning, full-text search, org structure, RBAC.
+
+`4,000 LOC` · `32 endpoints` · `9 tests`
+
+Spring Boot 3 · MinIO · Apache Tika · PostgreSQL tsvector
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+#### [NotifyX](https://github.com/AndrewSheff/notifyx)
+
+Multi-channel notifications: email/SMS/push/Telegram, templates, priority queues, Circuit Breaker, DLQ.
+
+`3,900 LOC` · `17 endpoints` · `10 tests`
+
+Spring Boot 3 · Kafka · Resilience4j · Virtual Threads
+
+</div>
+
+---
+
+### Python — AI & Automation
 
 <table>
 <tr>
@@ -98,29 +167,29 @@ FastAPI · React · OpenAI embeddings · PostgreSQL
 
 | | | | |
 |:---:|:---:|:---:|:---:|
-| **Docker Compose** | **CI/CD** | **Tests** | **Swagger Docs** |
-| One-command deploy | GitHub Actions | Pytest (async) | Full API reference |
+| **Docker Compose** | **CI/CD** | **Tests** | **Swagger UI** |
+| One-command deploy | GitHub Actions | JUnit 5 / Pytest | Full API reference |
 | **Auth & RBAC** | **Migrations** | **Structured Logging** | **MIT License** |
-| JWT + bcrypt | Alembic | structlog (JSON) | Free for commercial use |
+| Spring Security / JWT | Liquibase / Alembic | Logback / structlog | Free for commercial use |
 
 ---
 
 ### Stack
 
-| Backend | Frontend | AI & Search | Infrastructure |
-|:--------|:---------|:------------|:---------------|
-| Python 3.13 | React 19 | OpenAI GPT-4 | Docker Compose |
-| FastAPI 0.115 | TypeScript 5+ | Anthropic Claude | GitHub Actions CI/CD |
-| SQLAlchemy 2.0 | Vite 6 | pgvector + HNSW | Nginx reverse proxy |
-| PostgreSQL 16 | TailwindCSS v4 | RAG pipelines | Multi-stage builds |
-| Redis 7 | shadcn/ui | Embeddings (1536d) | structlog (JSON) |
-| Alembic | React Query | tiktoken | Pytest (async) |
+| Java Enterprise | Python & AI | Frontend | Infrastructure |
+|:---------------|:------------|:---------|:---------------|
+| Java 21 (LTS) | Python 3.13 | React 19 | Docker Compose |
+| Spring Boot 3.3 | FastAPI 0.115 | TypeScript 5+ | GitHub Actions CI/CD |
+| Spring Security 6 | SQLAlchemy 2.0 | Vite 6 | Kafka |
+| Spring Data JPA | OpenAI GPT-4 | TailwindCSS v4 | Redis 7 |
+| Kafka + Resilience4j | pgvector + RAG | shadcn/ui | PostgreSQL 16 |
+| Liquibase · MapStruct | Alembic · Pytest | React Query | Prometheus + Micrometer |
 
 ---
 
 ### Work With Me
 
-Open for freelance projects and contract work. I deliver working products — backend, frontend, AI, deployment, tests, and documentation.
+Open for freelance and contract work. Java — enterprise and high-load systems. Python — AI and automation. Full products delivered end-to-end.
 
 [![Email](https://img.shields.io/badge/Email-andrew.sheff2012@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:andrew.sheff2012@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-@Andrey__Shevtsov1-26A5E4?logo=telegram&logoColor=white)](https://t.me/Andrey_Shevtsov1)
